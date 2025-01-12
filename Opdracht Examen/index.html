@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Series Overzicht</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Netflix Series</h1>
+        <nav>
+            <a href="/beheer.html">Ga naar Beheerpagina</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="filter">
+            <input type="text" id="search" placeholder="Zoek op titel...">
+        </section>
+
+        <section id="statistics">
+            <h2>Statistieken</h2>
+            <p>Totaal aantal series: <span id="total-series">0</span></p>
+            <p>Gemiddeld aantal seizoenen: <span id="average-seasons">0</span></p>
+        </section>
+
+        <section id="series-list"></section>
+    </main>
+
+    <script type="module" src="/scripts/main.js"></script>
+</body>
+
+</html>
