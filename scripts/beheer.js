@@ -1,6 +1,7 @@
 
 import { seriesData, addSeries, deleteSeries } from './data.js';
 
+// Selecteer de HTML-elementen
 const addSeriesForm = document.getElementById('add-series-form'); // Formulier voor het toevoegen van een serie
 const titleInput = document.getElementById('title'); // Invoerveld voor de titel van de serie
 const genreInput = document.getElementById('genre'); 

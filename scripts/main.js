@@ -48,3 +48,4 @@ loadSeries();
 
 // Functie om zoekfunctionaliteit op te zetten
 setupSearchEvent(searchInput); 
+
